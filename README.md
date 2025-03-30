@@ -30,20 +30,30 @@ graph TD;
 
     E --> F[Create Extraction Task]
     F --> G[Create Extraction Crew]
+    
     G -->|Uses| A1[Data Extractor Agent]
-    G --> H[Run Extraction]
+    A1 -->|Executes| T1[Extraction Task]
+    T1 -->|Extracts Data| H[Run Extraction]
     H --> I[Get Extraction Output]
     I --> J[Extract Claims Data]
     J --> K[Save to OUTPUT_FILE]
 
     K --> L[Load Extracted Claims]
     L --> M[Create Validation Task]
-    M --> N[Create Human Validation Task]
+    L --> N[Create Human Validation Task]
 
-    N --> O[Create Validation Crew]
+    M --> V1[Validation Task]
+    N --> V2[Human Validation Task]
+
+    M --> O[Create Validation Crew]
     O -->|Uses| A2[Data Validator Agent]
+    A2 -->|Executes| V1
     O -->|Uses| A3[Human Validator Agent]
-    O --> P[Run Validation]
+    A3 -->|Executes| V2
+    
+    V1 -->|Checks Validity| P[Run Validation]
+    V2 -->|Manual Check| P
+
     P --> Q[Save Final Output to FINAL_OUTPUT_FILE]
 
     Q --> R[Load Final Data]

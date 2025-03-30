@@ -10,6 +10,7 @@ final_output.json
 extracted_claims.json
 validation_report.json
 validation_report.txt
+human_validations.json
 
 old
 testarea
