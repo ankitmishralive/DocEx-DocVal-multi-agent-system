@@ -4,7 +4,7 @@ This project implements a Multi-Agent Data Extraction Validation System  using F
 
 ## Table of Contents
 
-1.  [Project Architecture](#project-architecture)
+1.  [Architecture](#architecture)
 2.  [Prerequisites](#prerequisites)
 3.  [Setup and Installation](#setup-and-installation)
 4.  [Configuration](#configuration)
@@ -16,7 +16,7 @@ This project implements a Multi-Agent Data Extraction Validation System  using F
 10. [Example Usage](#example-usage)
 11. [License](#license)
 
-## Project Architecture
+## Architecture
 
 
 ```mermaid
