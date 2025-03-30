@@ -1,0 +1,109 @@
+
+
+pibitai
+**/__pycache__/
+
+# Files, Folders
+llm
+LossRun.pdf
+final_output.json
+extracted_claims.json
+validation_report.json
+validation_report.txt
+
+old
+testarea
+willwork.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+develop-eggs/
+**/__pyinstaller_tmp
+**/_MEI*
+*.egg-info/
+*.egg
+
+# PyInstaller bootloader makes some temporary files,
+# usually ending in .exe or .dll
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py*
+db.sqlite3
+db.sqlite3-*
+
+# Celery / RabbitMQ
+celerybeat.pid
+celeryd.pid
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# VS Code
+.vscode/
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# Private keys/Sensitive data
+*.key
+*.pem
+credentials.json
+secrets.ini
+
+# Local .env file
+.env
+
+# Temp files
+*~
+\#*\#
+*.tmp
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+#Python Dependancies
+dependancies

@@ -1,0 +1,34 @@
+
+
+
+
+# streamlit
+# crewai
+# crewai[tools]
+
+
+# crewai-tools
+# langchain
+langchain-groq
+python-dotenv
+# sentence-transformers
+# faiss-gpu-cu12
+# langchain-community
+# langchain-huggingface
+# langchain-huggingface
+# chromadb
+pypdf
+groq
+pysqlite3-binary
+
+langchain
+langchain-community
+
+crewai
+python-dotenv
+pypdf
+
+
+fastapi 
+uvicorn 
+python-multipart
