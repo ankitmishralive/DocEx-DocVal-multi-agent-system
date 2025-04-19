@@ -83,7 +83,7 @@ graph TD;
 ## Prerequisites
 Before you begin, ensure you have the following:
 
-- Python 3.8+ installed.
+- Python 3.10 installed.
 - pip package manager.
 - A Google Cloud Project with the Gemini API enabled.
 - A Gemini API Key.
