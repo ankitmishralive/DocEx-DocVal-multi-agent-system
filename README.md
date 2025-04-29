@@ -1,4 +1,4 @@
-# DocEx-DocVal Multi-Agent System
+# LossLens AI
 
 This project implements a Multi-Agent Data Extraction Validation System  using FastAPI,CrewAI & Gemini Flash 2 to extract and validate data from PDF documents. It leverages Google's Gemini models for text extraction and validation.
 
